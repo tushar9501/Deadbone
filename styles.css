@@ -25,9 +25,46 @@ body::before {
 }
 
 .logo{
-    width: 200px;
-    height:200px;
+    width: 160px;
+    height:50px;
     position: absolute;
-    /* margin-left: -0px; */
-    margin-top: -30px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.whatsapp{
+    margin-left: 200px;
+    width: 30px;
+    position: absolute;
+    margin-top: 10px;
+}
+.insta{
+    margin-left: 225px;
+    width: 30px;
+    position: absolute;
+    margin-top: 10px; 
+}
+.linkedin{
+    margin-left: 250px;
+    width: 30px;
+    position: absolute;
+    margin-top: 10px; 
+}
+.telegram{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 30px;
+    position: absolute;
+}
+.facebook{
+    margin-left: 225px;
+    margin-top: 30px;
+    width: 30px;
+    position: absolute;
+}
+.youtube{
+    margin-left: 249px;
+    margin-top: 30px;
+    width: 35px;
+    position: absolute;
 }
