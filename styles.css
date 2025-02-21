@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Marcellus&family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Hepta+Slab:wght@1..900&family=Marcellus&family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Hepta+Slab:wght@1..900&family=Marcellus&family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&family=Dancing+Script:wght@400..700&family=Exo:ital,wght@0,100..900;1,100..900&family=Hepta+Slab:wght@1..900&family=Marcellus&family=Oswald:wght@200..700&family=Playwrite+IN:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 html {
     color-scheme: light dark;
 }
@@ -126,4 +132,55 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+.slogan .green{
+    font-size: 50px;
+    font-family: "Hepta Slab", serif;
+    font-weight: bold;
+    color: #08FF00;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.slogan .g-design{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 270px;
+    margin-left: 141px;
+    font-family: "Hepta Slab", serif;
+    font-weight: 500;
+}
 
+
+.slogan .and{
+    font-size: 35px;
+    font-family: "Roboto Mono", serif;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 262px;
+}
+.slogan .b-g{
+    font-size: 50px;
+    font-family: "Hepta Slab", serif;
+    font-weight: bold;
+    color: #08FF00;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 340px;
+
+}
+.slogan .g-uild{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 270px;
+    margin-left: 380px;
+    font-family: "Hepta Slab", serif;
+    font-weight: 500;
+}
+.slogan .underline{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 330px;
+    margin-left: 100px;
+    font-family: "Hepta Slab", serif;
+    font-weight: 700;
+}
