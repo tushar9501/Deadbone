@@ -1,0 +1,25 @@
+html {
+    color-scheme: light dark;
+}
+
+body {
+    min-height: 100vh;
+    background: light-dark(rgb(147, 26, 26), rgb(0, 0, 0));
+    margin: 0; /* Ensures full coverage */
+    padding: 0;
+}
+
+body::before { 
+    content: '';
+    height: 20vh;
+    width: 145vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg,
+        color-mix(in lch, canvasText, transparent 50%) 1px, transparent 1px 1px)
+        50% 50% / 35px 35px,
+        linear-gradient(color-mix(in lch, canvasText, transparent 80%) 1px, transparent 1px 35px)
+        50% 50% / 35px 35px;
+    mask: linear-gradient(5deg, transparent 15%, white);
+}
