@@ -23,3 +23,11 @@ body::before {
         50% 50% / 35px 35px;
     mask: linear-gradient(5deg, transparent 15%, white);
 }
+
+.logo{
+    width: 200px;
+    height:200px;
+    position: absolute;
+    /* margin-left: -0px; */
+    margin-top: -30px;
+}
