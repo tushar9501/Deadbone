@@ -16,8 +16,8 @@
   
   /* Logo Styling */
   .logo {
-	max-width: 200px; /* Adjust size as needed */
-	height: auto;
+	max-width: 400px; /* Adjust size as needed */
+	height: 40px;
   }
   
   /* Border Line Directly Below Logo */
@@ -57,7 +57,8 @@
 	}
   
 	.logo {
-	  max-width: 120px;
+	  max-width: 160px;
+	  height: 40px;
 	}
   
 	.border-line {
