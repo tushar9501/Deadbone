@@ -62,5 +62,6 @@
   
 	.border-line {
 	  height: 1px; /* Very thin line for mobile */
+	  margin-top: -0.5vh;
 	}
   }
