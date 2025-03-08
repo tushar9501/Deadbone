@@ -168,6 +168,94 @@ nav {
     display: none;
 }
 
+
+/* Text Logo Section */
+.text-logo-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	text-align: center;
+	padding: 2rem;
+	margin-top: -70px; /* Counteract header height */
+  }
+  
+  .text-logo-container {
+	max-width: 1200px;
+  }
+  
+  .main-logo-text {
+	font-size: clamp(3rem, 8vw, 6rem);
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	letter-spacing: -2px;
+	line-height: 1.5;
+	margin-bottom: 1.5rem;
+	background: linear-gradient(to right, #ffffff, #007bff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  .sub-logo-text {
+	font-size: clamp(1rem, 2vw, 1.25rem);
+	font-family: "Poppins", sans-serif;
+	color: rgba(255, 255, 255, 0.5); /* 50% transparency */
+	letter-spacing: 1.5px;
+	font-weight: 300;
+	
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
     .nav-links {
@@ -255,6 +343,14 @@ nav {
     .hamburger.active .line:nth-child(3) {
         transform: rotate(-45deg) translate(7px, -6px);
     }
+	.text-logo-section {
+		margin-top: 0;
+		min-height: 80vh;
+	  }
+	.main-logo-text {
+		letter-spacing: -1px;
+		margin-bottom: 1rem;
+	  }
 }
 
 @media (max-width: 480px) {
@@ -289,6 +385,14 @@ nav {
     .hamburger {
         padding: 0.3rem;
     }
+	.text-logo-section {
+		margin-top: 0;
+		min-height: 80vh;
+	  }
+	.main-logo-text {
+		letter-spacing: -1px;
+		margin-bottom: 1rem;
+	  }
 }
 
 /* Accessibility */
