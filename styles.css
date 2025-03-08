@@ -163,6 +163,9 @@ nav {
     margin: 5px 0;
     transition: all 0.3s ease;
 }
+.mobile-contact{
+	display: none;
+}
 
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
@@ -260,7 +263,8 @@ nav {
     }
     
     .logo img {
-        height: 35px;
+        height: 30px;
+		margin-top: 10px;
     }
     
     .nav-right {
