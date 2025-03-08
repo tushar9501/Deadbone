@@ -279,6 +279,7 @@ nav {
     .contact-button {
         padding: 0.6rem 1rem;
         font-size: 0.8rem;
+		text-decoration: none;
     }
     
     .dropdown-content a {
