@@ -122,3 +122,28 @@ const Navigation = (() => {
 
 // Initialize navigation
 Navigation.init();
+
+
+// Schedule Button Module
+const ScheduleButton = (() => {
+	const button = document.querySelector('.floating-schedule-button');
+	
+	const handleClick = () => {
+	  // Add your meeting scheduling logic here
+	  console.log('Schedule meeting clicked!');
+	  window.location.href = '#contact'; // Example action
+	};
+  
+	const init = () => {
+	  if(button) {
+		button.addEventListener('click', handleClick);
+	  }
+	};
+  
+	return { init };
+  })();
+  
+  // Initialize all modules
+  Navigation.init();
+  PageInteractions.init();
+  ScheduleButton.init();
