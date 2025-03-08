@@ -97,7 +97,7 @@ nav {
     left: 0;
     background-color: #0a0520;
     box-shadow: 1px 1px 5px rgba(255, 249, 249, 0.462);
-    min-width: 200px;
+    min-width: 250px;
     padding: 1rem;
     border-radius: 4px;
     z-index: 1000;
@@ -163,13 +163,13 @@ nav {
     margin: 5px 0;
     transition: all 0.3s ease;
 }
-.mobile-contact{
-	display: none;
+
+.mobile-contact {
+    display: none;
 }
 
 /* Responsive Breakpoints */
 @media (max-width: 1024px) {
-    /* Tablet Styles */
     .nav-links {
         gap: 1.5rem;
     }
@@ -180,18 +180,20 @@ nav {
 }
 
 @media (max-width: 768px) {
-    /* Mobile/Tablet Common Styles */
     nav {
         padding: 1rem 5%;
     }
 
     .nav-right {
         margin-left: auto;
-        padding-left: 1rem;
+        gap: 2rem;
+        padding-right: 1rem;
     }
 
     .hamburger {
         display: block;
+        margin-left: 0;
+        order: 2;
     }
 
     .nav-links {
@@ -238,11 +240,10 @@ nav {
 
     .mobile-contact {
         display: inline-block;
-        order: -1;
-        margin-right: 0;
+        order: 1;
+        margin-right: auto;
     }
 
-    /* Hamburger Animation */
     .hamburger.active .line:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
     }
@@ -257,18 +258,18 @@ nav {
 }
 
 @media (max-width: 480px) {
-    /* Mobile Optimization */
     html {
         font-size: 14px;
     }
     
     .logo img {
-        height: 30px;
-		margin-top: 10px;
+        height: 25px;
+        margin-top: 5px;
     }
     
     .nav-right {
-        gap: 1rem;
+        gap: 1.5rem;
+        padding-right: 0.5rem;
     }
     
     .nav-links.active {
@@ -276,13 +277,16 @@ nav {
     }
     
     .contact-button {
-        padding: 0.75rem 1.25rem;
-        font-size: 0.7rem;
-		text-decoration: none;
+        padding: 0.6rem 1rem;
+        font-size: 0.8rem;
     }
     
     .dropdown-content a {
-        padding: 0.6rem 1rem;
+        padding: 0.5rem 0.8rem;
+    }
+    
+    .hamburger {
+        padding: 0.3rem;
     }
 }
 
